@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "AL6LcftyeSrTNsVar20jOrWmYmdXngZw3HxIRraFfPnCqDSXW3yK8eBWToltIQkN55QwSYVpM030gdHnAKJqQA==",
+  "dgSpecHash": "RzBQfdbYA27/mZkRvM1FWWW/3uQ2zjWX6jNh6kKsk4N29Y71zMuwceSk5PW9R7RMM4U3lyvsLrQ4bCldY5wziw==",
   "success": true,
-  "projectFilePath": "/Users/ndubisiekeh/Projects/WorkAssignment/CustomerAPI/CustomerApp/CustomerApp/CustomerApp.csproj",
+  "projectFilePath": "/Users/ndubisiekeh/Documents/GitHub/CustomerApp/CustomerAPI/CustomerApp/CustomerApp/CustomerApp.csproj",
   "expectedPackageFiles": [
-    "/Users/ndubisiekeh/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/ndubisiekeh/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/ndubisiekeh/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
-    "/Users/ndubisiekeh/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "/Users/ndubisiekeh/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "/Users/ndubisiekeh/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "/Users/ndubisiekeh/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "/Users/ndubisiekeh/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/ndubisiekeh/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/ndubisiekeh/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/ndubisiekeh/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
   ],
   "logs": []
 }

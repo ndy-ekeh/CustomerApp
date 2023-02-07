@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ndubisiekeh/Projects/WorkAssignment/CustomerAPI/CustomerApp/CustomerApp/CustomerApp.csproj": {}
+    "/Users/ndubisiekeh/Documents/GitHub/CustomerApp/CustomerAPI/CustomerApp/CustomerApp/CustomerApp.csproj": {}
   },
   "projects": {
-    "/Users/ndubisiekeh/Projects/WorkAssignment/CustomerAPI/CustomerApp/CustomerApp/CustomerApp.csproj": {
+    "/Users/ndubisiekeh/Documents/GitHub/CustomerApp/CustomerAPI/CustomerApp/CustomerApp/CustomerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ndubisiekeh/Projects/WorkAssignment/CustomerAPI/CustomerApp/CustomerApp/CustomerApp.csproj",
+        "projectUniqueName": "/Users/ndubisiekeh/Documents/GitHub/CustomerApp/CustomerAPI/CustomerApp/CustomerApp/CustomerApp.csproj",
         "projectName": "CustomerApp",
-        "projectPath": "/Users/ndubisiekeh/Projects/WorkAssignment/CustomerAPI/CustomerApp/CustomerApp/CustomerApp.csproj",
+        "projectPath": "/Users/ndubisiekeh/Documents/GitHub/CustomerApp/CustomerAPI/CustomerApp/CustomerApp/CustomerApp.csproj",
         "packagesPath": "/Users/ndubisiekeh/.nuget/packages/",
-        "outputPath": "/Users/ndubisiekeh/Projects/WorkAssignment/CustomerAPI/CustomerApp/CustomerApp/obj/",
+        "outputPath": "/Users/ndubisiekeh/Documents/GitHub/CustomerApp/CustomerAPI/CustomerApp/CustomerApp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -44,7 +44,7 @@
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
