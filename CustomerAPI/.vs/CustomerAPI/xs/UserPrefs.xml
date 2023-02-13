@@ -1,16 +1,22 @@
-﻿<Properties StartupConfiguration="{BC404B7E-32B9-4B94-83D8-23F7EB81487C}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Customer.API/Program.cs">
+﻿<Properties StartupConfiguration="{62480BE9-DCD7-40CC-93D1-049C33C5B7BB}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Customer.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Customer.API/Controllers/CustomerController.cs">
     <Files>
-      <File FileName="Customer.API/Dockerfile" Line="1" Column="1" />
       <File FileName="Customer.API/Program.cs" Line="11" Column="76" />
+      <File FileName="Customer.API/Controllers/CustomerController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CustomerAPI" expanded="True">
-            <Node name="Customer.API" expanded="True" />
-            <Node name="docker-compose" expanded="True" />
+            <Node name="Customer.API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -19,11 +25,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Customer.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
