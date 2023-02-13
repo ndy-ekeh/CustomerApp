@@ -1,30 +1,51 @@
 ﻿<Properties StartupConfiguration="{62480BE9-DCD7-40CC-93D1-049C33C5B7BB}|Default">
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Customer.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Customer.API/Controllers/CustomerController.cs">
     <Files>
-      <File FileName="Customer.API/Program.cs" Line="11" Column="76" />
-      <File FileName="Customer.API/Controllers/CustomerController.cs" Line="1" Column="1" />
+      <File FileName="Customer.API/Program.cs" Line="18" Column="1" />
+      <File FileName="Customer.API/Controllers/CustomerController.cs" Line="129" Column="48" />
+      <File FileName="Customer.Domain/DTOs/CreateCustomerRequest.cs" Line="11" Column="8" />
+      <File FileName="Customer.Domain/DTOs/GetAllCustomerResponse.cs" Line="11" Column="44" />
+      <File FileName="Customer.Domain/DTOs/ApiResponse.cs" Line="11" Column="33" />
+      <File FileName="Customer.Domain/DTOs/UpdateCustomerRequest.cs" Line="11" Column="20" />
+      <File FileName="Customer.Domain/DTOs/GetCustomerResponse.cs" Line="9" Column="63" />
+      <File FileName="Customer.Domain/Services/CustomerService.cs" Line="41" Column="60" />
+      <File FileName="Customer.Domain/Services/ICustomerService.cs" Line="19" Column="1" />
+      <File FileName="Customer.Domain/Repositories/CustomerRepository.cs" Line="35" Column="53" />
+      <File FileName="Customer.Domain/Repositories/ICustomerRepository.cs" Line="1" Column="1" />
+      <File FileName="Customer.Domain/Helpers/Utility.cs" Line="15" Column="33" />
+      <File FileName="Customer.API/appsettings.json" Line="13" Column="49" />
+      <File FileName="Customer.API/Properties/launchSettings.json" Line="18" Column="48" />
+      <File FileName="Customer.API/Filters/CreateCustomerValidator.cs" Line="31" Column="10" />
+      <File FileName="Customer.API/Filters/UpdateCustomerValidator.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CustomerAPI" expanded="True">
             <Node name="Customer.API" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="CustomerController.cs" selected="True" />
+              </Node>
+              <Node name="Filters" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="Customer.Domain" expanded="True">
+              <Node name="DTOs" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Customer.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
