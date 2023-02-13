@@ -1,0 +1,46 @@
+<div *ngIf="Customer">
+  <h2></h2>
+  <div>
+      First Name:
+      <input type="text" [(ngModel)]="Customer.firstName" placeholder="firstname"/>
+  </div>
+  <div>
+    Last Name:
+    <input type="text" [(ngModel)]="Customer.lastName" placeholder="lastname"/>
+  </div>
+
+  <div>
+    Account Number:
+    <input type="text" [(ngModel)]="Customer.accountNumber"  placeholder="accountNumber"/>
+  </div>
+
+
+  <div>
+    House Address:
+    <input type="text" [(ngModel)]="Customer.houseAddress" placeholder="hseAddress"/>
+  </div>
+
+
+  <div>
+    Telephone:
+    <input type="text" [(ngModel)]="Customer.phoneNo"  placeholder="phoneNo"/>
+  </div>
+
+
+  <div>
+    Email:
+    <input type="email" [(ngModel)]="Customer.email" placeholder="Email"/>
+  </div>
+
+
+  <div>
+      Customer Code:
+      <input [(ngModel)] = "Customer.customerCode" placeholder="Customer Code"/>
+    </div>
+
+  <!--No need to conditionally render bu checking customer?.id as its undefined by default-->
+  <button (click)="updateCustomer(Customer)" *ngIf="!isNewCustomer">Update</button>
+  <button (click)="deleteCustomer(Customer)" *ngIf="!isNewCustomer">Delete</button>
+  <button (click)="createCustomer(Customer)" *ngIf="isNewCustomer"> Save</button>
+</div>
+

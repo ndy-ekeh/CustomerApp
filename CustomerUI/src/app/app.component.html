@@ -1,0 +1,30 @@
+<button (click)="initNewCustomer()">Create New Customer</button>
+
+<table border="1">
+  <thead>
+    <th>Firstname</th>
+    <th>LastName</th>
+    <th>AccountNumber</th>
+    <th>HseAddress</th>
+    <th>PhoneNo</th>
+    <th>Email</th>
+    <th>CustomerCode</th>
+    <th></th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let cust of customer">
+      <td>{{cust.firstName}} </td>
+      <td>{{cust.lastName}} </td>
+      <td>{{cust.accountNumber}} </td>
+      <td>{{cust.houseAddress}} </td>
+      <td>{{cust.phoneNo}} </td>
+      <td>{{cust.email}} </td>
+      <td>{{cust.customerCode}} </td>
+      <td><button (click)="editCustomer(cust)">Update</button></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<app-edit-customer [Customer]="CustomerToEdit" [isNewCustomer]="IsNewCustomer"></app-edit-customer>
+
