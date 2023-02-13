@@ -1189,34 +1189,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ekehmn\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/ndubisiekeh/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ekehmn\\Downloads\\CustomerAPI\\CustomerAPI\\Customer.Domain\\Customer.Domain.csproj",
+      "projectUniqueName": "/Users/ndubisiekeh/Documents/GitHub/CustomerApp/CustomerAPI/Customer.Domain/Customer.Domain.csproj",
       "projectName": "Customer.Domain",
-      "projectPath": "C:\\Users\\ekehmn\\Downloads\\CustomerAPI\\CustomerAPI\\Customer.Domain\\Customer.Domain.csproj",
-      "packagesPath": "C:\\Users\\ekehmn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ekehmn\\Downloads\\CustomerAPI\\CustomerAPI\\Customer.Domain\\obj\\",
+      "projectPath": "/Users/ndubisiekeh/Documents/GitHub/CustomerApp/CustomerAPI/Customer.Domain/Customer.Domain.csproj",
+      "packagesPath": "/Users/ndubisiekeh/.nuget/packages/",
+      "outputPath": "/Users/ndubisiekeh/Documents/GitHub/CustomerApp/CustomerAPI/Customer.Domain/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ekehmn\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/ndubisiekeh/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1258,7 +1253,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -1267,7 +1263,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }
